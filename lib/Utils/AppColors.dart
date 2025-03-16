@@ -21,7 +21,9 @@ class AppColor
   static  const  Color   apptextcolor =Colors.black;
 
   static  const  Color   blackcolor =Colors.black;
+  static  const  Color   greycolor =Colors.grey;
   static  const  Color   grayColor =Color(0xFFdcdcdc);
+  static  const  Color   greycolorShade =Color(0xFFf0efef);
 
 
   static  const  Color   activebtncoloSSr =Color(0xF5F4F3F7);

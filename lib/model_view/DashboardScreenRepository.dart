@@ -1,4 +1,5 @@
 
+import 'package:jsp/models/CarouselResponse.dart';
 import 'package:jsp/models/StoriesResponse.dart';
 
 import '../Utils/Strings.dart';
@@ -39,6 +40,14 @@ class Dashboardscreenrepository
 
     dynamic response =await  _apinetwork.postApi( map , Strings.baseUrl+"banner");
     return BannerCarouseResponse.fromJson(response);
+
+  }
+
+  Future<CarouselResponse>getCarouselApi() async
+  {
+
+    dynamic response =await  _apinetwork.getApi(Strings.baseUrl+"getCarousels");
+    return CarouselResponse.fromJson(response);
 
   }
 

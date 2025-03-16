@@ -767,6 +767,7 @@ import 'package:jsp/controller/LoginController.dart';
 import 'package:http/http.dart' as http;
 import 'package:jsp/screens/OTPVerificationScree.dart';
 import 'package:jsp/screens/RegistrationForm.dart';
+import 'package:jsp/screens/TabScreen.dart';
 
 import '../Utils/NewTextstyle.dart';
 import '../Utils/custom_widgets.dart';
@@ -1581,7 +1582,8 @@ class _HomePageState extends State<Loginscreen> {
                                       onTap: (){
 
 
-                                        Get.to(RegistrationForm());
+                                        Get.to(TabsScreen());
+                                       // Get.to(RegistrationForm());
 
 
                                       //  Get.offAll(() => MembershipForm());

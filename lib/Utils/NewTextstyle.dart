@@ -257,13 +257,27 @@ class Newtextstyle {
   //       )
   //   );
  // }
+
   static TextStyle nanoText18Bold(Color myColor,double height) {
     return GoogleFonts.notoSansDevanagari(
         textStyle: GoogleFonts.notoSansDevanagari(
             textStyle: TextStyle(
+              fontFamily: 'Maine',
               fontSize: height,
               color: myColor,
               fontWeight: FontWeight.w700,
+            )
+        )
+    );
+  }
+  static TextStyle nanoText(Color myColor,double height) {
+    return GoogleFonts.notoSansDevanagari(
+        textStyle: GoogleFonts.notoSansDevanagari(
+            textStyle: TextStyle(
+              fontFamily: 'Maine',
+              fontSize: height,
+              color: myColor,
+              //fontWeight: FontWeight.w700,
             )
         )
     );
